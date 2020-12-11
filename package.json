@@ -5,10 +5,29 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint --fixed"
   },
   "dependencies": {
+    "sentry-csii-internal-eslint-config-sdk": "file:.yalc/sentry-csii-internal-eslint-config-sdk",
+    "sentry-csii-internal-eslint-plugin-sdk": "file:.yalc/sentry-csii-internal-eslint-plugin-sdk",
+    "sentry-csii-internal-typescript": "file:.yalc/sentry-csii-internal-typescript",
+    "csii-sentry-angular": "file:.yalc/csii-sentry-angular",
+    "csii-sentry-browser": "file:.yalc/csii-sentry-browser",
+    "csii-sentry-core": "file:.yalc/csii-sentry-core",
+    "csii-sentry-ember": "file:.yalc/csii-sentry-ember",
+    "csii-sentry-gatsby": "file:.yalc/csii-sentry-gatsby",
+    "csii-sentry-hub": "file:.yalc/csii-sentry-hub",
+    "csii-sentry-integrations": "file:.yalc/csii-sentry-integrations",
+    "csii-sentry-minimal": "file:.yalc/csii-sentry-minimal",
+    "csii-sentry-node": "file:.yalc/csii-sentry-node",
+    "csii-sentry-react": "file:.yalc/csii-sentry-react",
+    "csii-sentry-serverless": "file:.yalc/csii-sentry-serverless",
+    "csii-sentry-tracing": "file:.yalc/csii-sentry-tracing",
+    "csii-sentry-types": "file:.yalc/csii-sentry-types",
+    "csii-sentry-utils": "file:.yalc/csii-sentry-utils",
+    "csii-sentry-vue": "file:.yalc/csii-sentry-vue",
     "core-js": "^3.6.5",
+    "typescript": "^4.1.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

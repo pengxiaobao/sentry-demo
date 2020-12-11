@@ -91,6 +91,10 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  created() {
+    let a = 1;
+    a(); // 类型错误
   }
 };
 </script>
